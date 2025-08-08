@@ -56,8 +56,8 @@ export default function HomePage() {
         initial={{ opacity: 0, x: -40 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 1.5, delay: 0.2 }}
-        className="fixed top-[650px] left-[45px] flex flex-col gap-[30px] z-[60]
-                   backdrop-blur-md bg-black/30 p-4 rounded-xl"
+        className="fixed top-[650px] left-[45px] flex flex-col gap-[30px] z-[600]
+                   blur-[1px] p-4 rounded-xl cursor-pointer group overflow-hidden"
       >
         <a href="https://github.com/bekkzod1337" target="_blank" rel="noopener noreferrer">
           <FaGithub className="text-white w-[28px] h-[28px] hover:scale-110 transition-transform duration-200 cursor-pointer" />
